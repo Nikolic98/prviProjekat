@@ -7,5 +7,6 @@ $db_pass="put_db_password_her";
 $db_name="put_db_name_her";
 
 mysql_connect("$db_host","$db_username","$db_pass") or die(mysql_error());
+mysql_select_db("$db_name")or die("no database by that name");
 ?>
 
