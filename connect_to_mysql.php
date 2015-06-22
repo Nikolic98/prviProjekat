@@ -2,9 +2,9 @@
 <?php
 
 $db_host="localhost";
-$db_username="put_db_username_here";
-$db_pass="put_db_password_her";
-$db_name="put_db_name_her";
+$db_username="root";
+$db_pass="123";
+$db_name="prviprojekat";
 
 mysql_connect("$db_host","$db_username","$db_pass") or die(mysql_error());
 mysql_select_db("$db_name")or die("no database by that name");
